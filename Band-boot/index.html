@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAND</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR section -->
+    <nav class="navbar navbar-expand-lg py-1 w-100 position-fixed">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-4">
+              <a class="nav-link text-white active" aria-current="page" href="#"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-white" href="#Band">BAND</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-white" href="#Tour">TOUR</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-white" href="#Contact">CONTACT</a>
+            </li>
+            <li class="nav-item me-4 dropdown">
+              <a class="nav-link text-white dropdown-toggle" href="#"> MORE </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Merchandise</a></li>
+                <li><a class="dropdown-item" href="#">Extras</a></li>
+                <li><a class="dropdown-item" href="#">Media</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <i class="fa-solid fa-magnifying-glass text-white me-3 px-3 py-2"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME-section -->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide carousel-fade vh-100"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div
+          data-bs-interval="2000"
+          class="carousel-item active position-relative"
+        >
+          <img src="./images/chicago.jpg" class="d-block w-100" />
+          <div
+            class="carousel__card-text text-white position-absolute bottom-0 text-center mb-5"
+          >
+            <h3>Chicago</h3>
+            <b>Thank you, Chicago - A night we won't forget.</b>
+          </div>
+        </div>
+        <div data-bs-interval="2000" class="carousel-item position-relative">
+          <img src="./images/la.jpg" class="d-block w-100" />
+          <div
+            class="carousel__card-text text-white position-absolute bottom-0 text-center mb-5"
+          >
+            <h3>Los Angeles</h3>
+            <b>We had the best time playing at Venice Beach!</b>
+          </div>
+        </div>
+        <div data-bs-interval="2000" class="carousel-item position-relative">
+          <img src="./images/ny.jpg" class="d-block w-100" />
+          <div
+            class="carousel__card-text text-white position-absolute bottom-0 text-center mb-5"
+          >
+            <h3>New York</h3>
+            <b>The atmosphere in New York is lorem ipsum.</b>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BAND section -->
+    <section class="BAND mt-5 py-5" id="Band">
+      <div class="container w-50">
+        <div class="section-title text-center mb-4">
+          <h3>THE BAND</h3>
+          <i class="text-muted">We love music</i>
+        </div>
+        <div class="BRAND__content">
+          <p>
+            We have created a fictional band website. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <div class="row members">
+            <div class="col-md-4 p-5">
+              <p class="mb-3 text-center">Name</p>
+              <img src="./images/bandmember.jpg" class="w-100" />
+            </div>
+            <div class="col-md-4 p-5">
+              <p class="mb-3 text-center">Name</p>
+              <img src="./images/bandmember.jpg" class="w-100" />
+            </div>
+            <div class="col-md-4 p-5">
+              <p class="mb-3 text-center">Name</p>
+              <img src="./images/bandmember.jpg" class="w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOUR section -->
+    <section class="TOUR text-white mt-5 p-5 overflow-hidden" id="Tour">
+      <div class="container w-50">
+        <div class="section-title text-center mt-5 mb-4">
+          <h3>TOUR DATES</h3>
+          <i class="text-white-50">Remember to book your tickets!</i>
+        </div>
+        <ul class="W-100 bg-white mt-5">
+          <li class="list-unstyled py-2 text-muted border-bottom">
+            September
+            <span class="sold-out text-white py-1 px-2 ms-3">Sold Out</span>
+          </li>
+          <li class="list-unstyled py-2 text-muted border-bottom">
+            October
+            <span class="sold-out text-white py-1 px-2 ms-3">Sold Out</span>
+          </li>
+          <li class="list-unstyled py-2 text-muted position-relative">
+            November
+            <span
+              class="badge-3 text-white py-1 px-2 ms-3 position-absolute d-flex justify-content-center"
+              >3</span
+            >
+          </li>
+        </ul>
+        <div class="cards row mt-3 mb-5">
+          <div class="col-md-4">
+            <div class="card p-0 rounded-0 border-0">
+              <div class="card-img-top position-relative">
+                <img src="./images/newyork.jpg" class="w-100" />
+                <div
+                  class="layer position-absolute top-0 bottom-0 start-0 end-0"
+                ></div>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title mb-4 fw-bold">New York</h6>
+                <div class="card-text">
+                  <p>Fri 27 Nov 2016</p>
+
+                  <p>
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                </div>
+                <button href="#" class="Buy-btn text-white py-2 px-3 border-0">
+                  Buy Tickets
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-0 rounded-0 border-0">
+              <div class="card-img-top position-relative">
+                <img src="./images/paris.jpg" class="w-100" />
+                <div
+                  class="layer position-absolute top-0 bottom-0 start-0 end-0"
+                ></div>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title mb-4 fw-bold">Paris</h6>
+                <div class="card-text">
+                  <p>Sat 28 Nov 2016</p>
+
+                  <p>
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                </div>
+                <button href="#" class="Buy-btn text-white py-2 px-3 border-0">
+                  Buy Tickets
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-0 rounded-0 border-0">
+              <div class="card-img-top position-relative">
+                <img src="./images/sanfran.jpg" class="w-100" />
+                <div
+                  class="layer position-absolute top-0 bottom-0 start-0 end-0"
+                ></div>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title mb-4 fw-bold">San Fransisco</h6>
+                <div class="card-text">
+                  <p>Sun 29 Nov 2016</p>
+
+                  <p>
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                </div>
+                <button href="#" class="Buy-btn text-white py-2 px-3 border-0">
+                  Buy Tickets
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT section -->
+    <section class="Contact mt-5 py-4" id="Contact">
+      <div class="container w-50">
+        <div class="section-title text-center mt-5 mb-4">
+          <h3>CONTACT</h3>
+          <i class="text-muted">Fan? Drop a note!</i>
+        </div>
+        <div class="row contact-info justify-content-center align-items-center">
+          <div class="col-md-6 fs-5">
+            <i class="fa-solid fa-location-dot me-4"></i
+            ><span>Chicago, US</span>
+            <br />
+            <i class="fa-solid fa-phone me-4"></i><span>Phone: +00 151515</span>
+            <br />
+            <i class="fa-solid fa-envelope me-4"></i
+            ><span>Email: mail@mail.com</span>
+          </div>
+          <div class="col-md-6">
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="w-100 p-2 rounded-0"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="w-100 p-2 rounded-0"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                    <input
+                    type="text"
+                    class="w-100 p-2 rounded-0"
+                    placeholder="Message"
+                    />
+              </div>
+              <div class="row mt-3 ms-auto w-auto">
+                <button class="send-btn btn px-3">SEND</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="location-photo">
+        <img src="images/map.jpg" class="w-100 mt-5" alt="location-map">
+    </div>
+
+    <!-- FOOTER-Section -->
+     <section class="footer p-5 text-center text-muted">
+        <div class="icons fs-4">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" class="text-muted"> w3.css</a></p>
+     </section>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
